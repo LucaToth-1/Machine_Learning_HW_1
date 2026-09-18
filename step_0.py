@@ -1,5 +1,5 @@
 # all team members have contributed in equal measure to this effort,
-
+# Luca Toth, Brayden Molinyawe
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt

@@ -1,5 +1,5 @@
 # all team members have contributed in equal measure to this effort,
-
+# Luca Toth, Brayden Molinyawe
 # Train and test each model with L2 Regularization (Ridge Regression).
 
 import numpy as np

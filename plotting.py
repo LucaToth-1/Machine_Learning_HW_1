@@ -1,5 +1,6 @@
 # all team members have contributed in equal measure to this effort,
-# Plot the regression lines for the attributes with the largest weights
+# Luca Toth, Brayden Molinyawe
+# Plotting the regression lines for the attributes with the largest weights
 # This is the batch gradient descent model trained on the full feature set,, 
 #before and after regularization (both L1 and L2)
 # 
