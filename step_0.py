@@ -1,3 +1,5 @@
+# all team members have contributed in equal measure to this effort,
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -40,7 +42,6 @@ plt.show()
 
 
 # Seperate features and target
-
 X = wine.drop(columns=["quality"])
 Y = wine["quality"].to_numpy() # converting this to a numpy array
 
@@ -66,32 +67,27 @@ test = wine.iloc[test_indices]
 # Seperate X and Y for each dataset
 X_train = train.drop(columns=["quality"]).to_numpy()
 Y_train = train["quality"].to_numpy()
-
 X_valid = valid.drop(columns=["quality"]).to_numpy()
 Y_valid = valid["quality"].to_numpy()
-
 X_test = test.drop(columns=["quality"]).to_numpy()
 Y_test = test["quality"].to_numpy()
 
-# Add bias/intercept column to the features
+# add bias/intercept column to the features
 
 X_train = np.column_stack((np.ones(X_train.shape[0]), X_train))
 X_valid = np.column_stack((np.ones(X_valid.shape[0]), X_valid))
 X_test = np.column_stack((np.ones(X_test.shape[0]), X_test))
 
-# Verify the shapes of the final datasets
-
+# verify the shapes of the final datasets.
 print("X_train shape:", X_train.shape)
 print("Y_train shape:", Y_train.shape)
-
 print("X_valid shape:", X_valid.shape)
 print("Y_valid shape:", Y_valid.shape)
 
 print("X_test shape:", X_test.shape)
 print("Y_test shape:", Y_test.shape)
 
-# Save the datasets
-
+#save the datasets
 np.save("X_train.npy", X_train)
 np.save("Y_train.npy", Y_train)
 

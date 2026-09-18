@@ -1,3 +1,5 @@
+# all team members have contributed in equal measure to this effort,
+
 # Train and test each model without regularization
 
 import numpy as np
