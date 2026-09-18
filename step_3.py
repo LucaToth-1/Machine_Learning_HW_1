@@ -1,3 +1,5 @@
+# all team members have contributed in equal measure to this effort,
+
 # Train and test each model with L1 Regularization (Lasso Regression)
 
 import numpy as np
